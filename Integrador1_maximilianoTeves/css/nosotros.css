@@ -1,0 +1,110 @@
+body {background-color: #fafafa;
+margin: 0;
+padding: 0;
+}
+nav {background-color: rgb(255, 155, 49);
+    color: #ffffff;
+    font-family: Arial, sans-serif;font-size: 1.2em;font-weight: bold;
+    text-align: right;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 10px;
+    width: auto;
+    
+}
+a:visited{color: #ffffff;text-decoration: none;}
+a:link{color: #ffffff;text-decoration: none;}
+a:hover{color: #c1c1c1;}
+a{
+    margin: 10px;
+    margin-bottom: 5px;
+}
+.imagen-logo{
+    position: relative; right: 1100px;
+}
+
+.main-container{
+    width: 800px;
+    background: #e2e2e2;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 40px 0 #0007;
+    padding: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #444;
+    text-align: center;
+}
+.main-section p {
+    list-style: none;
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: bold;
+}
+.main-section, h2 {
+        font-family: sans-serif;
+        color: #444;
+        font-size: 20px;
+}
+
+.main-section img {
+    width: 160px;
+    filter: drop-shadow(0px 0px 15px #000);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 0;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #3498db;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #bbb;
+}

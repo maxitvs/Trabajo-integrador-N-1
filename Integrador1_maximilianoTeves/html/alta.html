@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lubricentro Cattaneo</title>
+    <link rel="stylesheet" href="../css/alta.css">
+    <link rel="icon" href="../icono.ico" type="image/png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">
+                <img src="../imagen.png" alt="imágen logo" class="imagen-logo">
+            </a>
+            <a href="alta.html"> ALTA</a>
+            <a href="../html/contacto.html"> CONTACTO</a>
+            <a href="../html/nosotros.html"> NOSOTROS</a>
+        </nav>
+    </header>
+    <main>
+        <div class="flexbox">
+            <form>
+                <label for="nombre">Nombre:
+                <input id="bombre" type="text" name:"nombre">
+                </label>
+                <label for="precio">Precio:
+                <input id="precio" type="text" name:"precio">
+                </label>
+                <label for="stock">Stock:
+                <input id="stock" type="text" name:"stock">
+                </label>
+                <label for="marca">Marca:
+                <input id="marca" type="text" name:"marca">
+                </label>
+                <label for="categoria">Categoría:
+                <input id="categoria" type="text" name:"categoria">
+                </label>
+                <label for="descripcion-corta">Descripción corta:
+                <input id="descripcion-corta" minlength="5" maxlength="20" type="text" name="descripcion-corta">
+                </label>
+                <label for="descripcion-larga">Descripción larga:
+                <input id="descripcion-larga" minlength="35" maxlength="100" type="text" name="descripcion-larga">
+                </label>
+                <label for="envio-sin-cargo">Envío sin cargo:
+                <input id="envio-sin-cargo" type="checkbox" name:"envio-sin-cargo">
+                </label>
+                <label for="edad">Edad:
+                <input id="edad" min="18" max="99" type="number" name:"edad">
+                </label>
+                <label for="foto">Foto:
+                <input id="foto" type="file" name:"foto">
+                </label>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h4>Conocenos</h4>
+                    <p>En nuestro lubricentro, nos especializamos en el cambio de aceite, filtros, correas y baterías, así como en el mantenimiento del tren delantero y la amortiguación. Ofrecemos servicios rápidos y profesionales, utilizando productos de alta calidad para asegurar que tu vehículo funcione de manera óptima y segura en todo momento.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Alta</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Seguinos en nuestras redes</h4>
+                    <ul class="social-links">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TuEmpresa. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </footer>
+</body>
+</html>
